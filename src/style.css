@@ -3,6 +3,12 @@ html {
   box-sizing: border-box;
 }
 
+
+/* .body {
+  font-family: 'Lora' serif;
+} */
+
+
 .main-container {
 display: flex;
 flex-direction: column;
@@ -15,23 +21,53 @@ background-color: rgb(230, 228, 228);
 h1 {
   font-size: 2.3rem;
   margin-top: 3rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Lora', serif;
+  margin-bottom: 1rem;
   
 }
+/* .heading {
+  font-family: 'Lora' serif;
+} */
 
 input, select, button {
   padding: 0.8rem 0.5rem;
   border: none;
   border-radius: 5px;
+  gap: 2rem;
+  font-family: 'Lora', serif;
+  margin-top: 1rem;
+  outline: none;
 }
 
 input {
   min-width: 15rem;
+  border: none;
 }
 form {
   margin: 4rem;
+  
 }
 input[placeholder] {
-  font-weight: 700;
+  /* font-weight: 800; */
   font-size: large;
+  font-weight: bolder;
+  margin-right: 0.5rem;
+  font-family: 'Lora', serif;
+}
+ 
+select, option {
+  
+  font-weight: 700;
+  margin-right: 0.5rem;
+  min-width: 7rem;
+  font-size: 1.2rem;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-family: 'Lora', serif;
+  font-weight: 800;
+  min-width: 6rem;
+  font-size: 1.2rem;
 }
