@@ -63,11 +63,19 @@ select, option {
   font-size: 1.2rem;
 }
 
-button {
+#Convert {
   background-color: black;
   color: white;
   font-family: 'Lora', serif;
   font-weight: 800;
   min-width: 6rem;
   font-size: 1.2rem;
+}
+#display {
+  /* align-content: center;
+  justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
 }
