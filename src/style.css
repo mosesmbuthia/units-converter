@@ -47,6 +47,13 @@ form {
   margin: 4rem;
   
 }
+
+#warning {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 input[placeholder] {
   /* font-weight: 800; */
   font-size: large;
@@ -74,6 +81,9 @@ select, option {
 #display {
   /* align-content: center;
   justify-content: center; */
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   justify-items: center;
